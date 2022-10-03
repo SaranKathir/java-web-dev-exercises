@@ -9,13 +9,16 @@ public class Car {
     private double milesPerGallon;
     private double odometer = 0;
 
-    public Car(String make, String model, int gasTankSize, double milesPerGallon) {
+    public Car() {
         this.make = make;
         this.model = model;
         this.gasTankSize = gasTankSize;
         // Gas tank level defaults to a full tank
         this.gasTankLevel = gasTankSize;
         this.milesPerGallon = milesPerGallon;
+    }
+
+    public Car(String toyato, String prius, int i, int i1) {
     }
 
     public String getMake() {
